@@ -1,2 +1,44 @@
-venv
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Environment files
 .env
+.env.local
+.env.*.local
+.flaskenv
+
+# Database
+/database/database.sqlite
+*.sqlite-journal
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local development
+instance/
+
+# Coverage
+.coverage
+htmlcov/
