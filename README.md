@@ -28,4 +28,4 @@ pip install -r requirements.txt
 ```
 flask run
 ```
-5. done
+5. enjoy the app
